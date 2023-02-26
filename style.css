@@ -1,0 +1,229 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(204, 204, 48);
+}
+
+.a
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav
+{
+
+    
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 20px 8%;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    
+
+}
+
+
+
+nav ul li
+{
+    
+    
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: justify;
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    
+}
+
+nav ul li a:hover
+{
+    
+    color: black;
+    background-color: white;
+}
+
+.b
+{
+    text-align: center;
+
+}
+
+.b h1
+{
+    font-size: 200px;
+    color: white;
+    font-weight: 500; 
+    transition: 0.5s;
+}
+
+.b h1:hover
+{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.b a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+
+}
+
+.b a:hover
+{
+    color: black;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.bgvideo
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+
+}
+
+@media (min-aspect-ratio: 16/9)
+{
+   .bgvideo
+   {
+    width: 100%;
+    height:100%;
+   } 
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.listelem
+{
+    list-style-type: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+img
+{
+    border-radius: 30%;
+}
+
+html 
+{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after 
+{
+    box-sizing: inherit;
+}
+
+body 
+{
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.quiz,
+.choices 
+{
+    list-style-type: none;
+    padding: 0;
+}  
+
+.choices li 
+{
+    margin-bottom: 5px;
+    color: white
+}
+
+.choices label {
+    display: flex;
+    align-items: center;
+}
+.choices label,
+input[type="radio"] {
+    cursor: pointer;
+}
+input[type="radio"] {
+    margin-right: 8px;
+}
+.view-results {
+    padding: 1rem;
+    cursor: pointer;
+    font-size: inherit;
+    color: white;
+    background: rgb(104, 195, 207);
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.my-results {
+    padding: 1rem;
+    border: 1px solid goldenrod;
+    color: white
+}
+
+.quiz
+{
+    font-size: 1.3rem;
+    
+}
+
+.lol
+{
+    list-style-type: none;
+}
+
+.hi
+{
+    list-style-type: none;
+}
+
+
+
+
+
